@@ -1,21 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Neon_Space</title>
-	<link rel="stylesheet" href="css/style.css">
-	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="script/script.js"></script>
-	<script src="script/rAF.js"></script>
-	
+<link rel="stylesheet" type="text/css" href="css/gamestyle2.css">
+   <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 </head>
+    <marquee id="marq" style=" color: #FFFFFF" bgcolor=lightgray;  scrollamount="20">- NEON SPACE - </marquee>
 <body>
-<div id="container">
-	<canvas class="game" width="1366" height="768">
-	</canvas>
 
-	<audio autoplay="true" src="music/sample.mp3" loop>
+<div id="outer" width="1366" height="768">
+    
+    <div id="controls" ><img src="svg/controls.svg" alt="controls" ></div>
+
+
+    <div id="start"><img src="svg/start.svg" alt="controls" onmouseover="this.src='svg/start2.svg';" onmouseout="this.src='svg/start.svg';"></div>
 </div>
+
+<script type="text/javascript">
+    document.getElementById("start").onclick = function () {
+        location.href = "game.html";
+    };
+    
+    
+
+</script>
+
+
 </body>
 </html>
-
