@@ -1,0 +1,36 @@
+html { 
+  background: url(../img/nice.png) no-repeat center center fixed;
+  background-size: cover;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    
+    color: #0adfdc;
+}
+
+#marq {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+    
+}
+
+#controls {
+    display: table;
+    margin: 0 auto; 
+}
+
+
+#retry {
+    display: table;
+    margin: 0 auto; 
+}
+
+#outer{
+    margin-top: 15vh;
+    
+}

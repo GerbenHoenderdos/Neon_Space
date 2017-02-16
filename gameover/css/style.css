@@ -1,0 +1,33 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.game{
+    width: 1366;
+    height: 768;
+}
+
+
+canvas {
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#container{
+    height: 100vh;
+}
+
+#wrapper{
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+audio {
+    display:none;
+}
