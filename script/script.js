@@ -1,7 +1,7 @@
 var setCanvasSize = function() {
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-}
+};
 
 
 window.onload = init;
@@ -432,7 +432,7 @@ function drawObjects() {
     }*/
 
 
-    if (coinposX == -100) {
+    if (coinposX == -1500) {
         coinposX = 1500; //random coin
         randCoin = (Math.floor(Math.random() * 3) + 1) - 1;
         coinposY = coinPositie[randCoin] - 100;
